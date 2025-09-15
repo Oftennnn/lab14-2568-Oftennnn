@@ -29,21 +29,12 @@ export default function Sidebar() {
         />
       </Box>
       <Box p={10}>
-        <Group>
-          <Indicator
-            inline
-            size={12}
-            offset={7}
-            position="bottom-end"
-            color="red"
-            withBorder
-          >
-            <Avatar size="md" radius="xl" src="/charliebrown.jpg" />
-          </Indicator>
-          <Text component={RouterNavLink} to="/">
-            User : Chanadda : Admin
-          </Text>
-        </Group>
+         <Group>
+        <Indicator inline size={12} offset={7} color="green" position="bottom-end" withBorder>
+           <Avatar src="myPic.JPEG" size="md" radius="xl" />
+        </Indicator>
+        <Text>User : Kamin : Admin</Text>
+       </Group>
       </Box>
     </Stack>
   );
